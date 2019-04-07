@@ -1,5 +1,6 @@
 package com.example.gasolinaetanol;
 
+import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private SeekBar precoEtanol;
 
 
-    private TextView resultado;
+    private TextInputEditText resultado;
     private ImageView imageView;
 
     private double precoG;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         precoEt = (TextView) findViewById(R.id.precoEt);
         precoEtanol = (SeekBar) findViewById(R.id.precoEtanol);
 
-        resultado = (TextView) findViewById(R.id.resultado);
+        resultado = (TextInputEditText) findViewById(R.id.resultado);
 
         imageView = (ImageView) findViewById(R.id.imageView);
 
