@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GasolinaEtanol</string>
+    <string name="precoG">Preço do litro da Gasolina</string>
+    <string name="precoE">Preço do litro do Etanol</string>
+    <string name="melhorPreco">A melhor opção será %1$s</string>
+    <string name="gasolina">gasolina</string>
+    <string name="etanol">etanol</string>
+</resources>
